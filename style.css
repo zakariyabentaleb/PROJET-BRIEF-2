@@ -434,3 +434,14 @@ border: none;
  margin: 0 130px;
  border-radius: 10px;
 }
+.social-icons{
+margin-left: 100px;
+  
+}
+.social-icons a i{
+  color: #E9BD8C;
+  font-size:30px;
+}
+.social-icons a{
+ padding: 2px 10px;
+}
