@@ -1,0 +1,191 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refrech" content="3">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="first">
+            <a href="index.html"> <img src="/image/Modrino__2_-removebg-preview 1.png" alt="page home"> </a>
+            <ul class="list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="active">Contact us</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <section class="hero">
+        <div class="position">
+            <div class="txt">
+                <h4 class="text1">Delicious Cafe</h4>
+                <h1 class="text2">Contact us
+                   </h1>
+            </div>
+            <div class="btn">
+                <button class="btn1">Shop Now</button>
+                <button class="btn2">Learn More</button>
+            </div>
+        </div>
+    </section>
+   
+    <section>
+        
+        <style>
+            section {
+                display: flex;
+            }
+
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+            }
+
+            .container {
+                display: flex;
+                max-width: 600px;
+                margin: 50px auto;
+                padding: 20px;
+               
+                z-index: 1;
+            }
+
+            h2 {
+                text-align: center;
+                color: #333;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+            }
+
+            label {
+                margin-bottom: 5px;
+                color: #555;
+            }
+
+            input,
+            select {
+                margin-bottom: 20px;
+                padding: 10px;
+                font-size: 16px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            .container button {
+                padding: 10px;
+                background-color: #a36d40;
+                color: white;
+                font-size: 16px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #7a3a25;
+            }
+
+            textarea {
+                resize: none;
+                border: 1px solid rgb(173, 173, 173);
+            }
+
+            .bg-form {
+                position: absolute;
+                z-index: 0;
+                left: 0;
+                margin-top: 54px;
+                width: 100%;
+                
+            }
+
+            .logo-follow {
+                position: absolute;
+                margin-left: -70px;
+                top: 1363px;
+            }
+           .footersection{
+               height: 100px;
+            }
+        </style>
+
+        <div class="container">
+            
+            <form action="/submit_order" method="POST">
+                <!-- Nom complet -->
+                <label for="name">Nom complet :</label>
+                <input type="text" id="name" name="name" required placeholder="Entrez votre nom complet">
+                <!-- Email -->
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required placeholder="Entrez votre email">
+                <!-- Téléphone -->
+                <label for="phone">Numéro de téléphone :</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Entrez votre numéro de téléphone">
+                <!-- message -->
+                <p><label for="w3review">Message</label></p>
+                <textarea id="w3review" name="w3review" rows="7" cols="50"></textarea>
+                <br>
+                <!-- Bouton de soumission -->
+                <button type="submit">Passer commande</button>
+            </form>
+        </div>
+        <div>
+
+            <img class="bg-form" src="image/Rectangle 45.png" alt="">
+        </div>
+    </section>
+    <footer>
+        <section class="footersection">
+            <div class="logo-follow">
+                <a href="index.html">
+                    <img src="/image/Modrino__2_-removebg-preview 1.png" alt="page home">
+                </a>
+                <h3>Follow us</h3>
+            </div>
+            <div class="footer-container">
+                <div class="about-footer">
+                    <h1>About us</h1>
+                    <h4>(456) 789-12301</h4>
+                    <h4>info@modrino.co.uk</h4>
+                    <h4>South 13th street</h4>
+                    <h4>New York, America</h4>
+                </div>
+                <div class="explorefooter">
+                    <h1>Explore</h1>
+                    <h4>Home</h4>
+                    <h4>Blog</h4>
+                    <h4>Contact</h4>
+                    <h4>Services</h4>
+                </div>
+                <div class="newsfooter">
+                    <h1>Recent News</h1>
+                    <div class="desc">
+                        <div class="newsimg">
+                            <img src="image/Rectangle 157.png" alt="News Image 1">
+                            <img src="image/Rectangle 158.png" alt="News Image 2">
+                        </div>
+                        <div class="newtext">
+                            <p><span>June 14,2024</span><br>Puff pastry bliss.</p>
+                            <br>
+                            <p><span>June 14,2024</span><br>Puff pastry bliss.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+    </footer>
+</body>

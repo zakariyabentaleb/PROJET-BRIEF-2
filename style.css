@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Sansita+Swashed:wght@300..900&display=swap');
+header {
+  display: flex;   
+}
+body{
+ padding: 0;
+ margin: 0;
+  box-sizing: border-box;
+}
+.first{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.first img{
+    margin-right: 900px; 
+}
+ .list {
+    list-style-type: none;   
+    display: flex;                        
+}
+.list li {
+    margin-right: 20px;      
+}
+.first .list li a {
+    text-decoration: none;     
+    color: white; 
+    padding: 10px;              
+    border-radius: 5px;       
+    font-family: 'poppins',sans-serif;
+}
+.list li a:hover ,
+.list li a.active{
+    color: #E9BD8C;
+}
+.hero{
+    background-image: url('image/Rectangle\ 10.png'); 
+    background-size: cover;     
+ background-position: center;  
+ background-repeat:no-repeat; 
+ background-attachment: fixed;
+   display: flex;
+        margin-top: -98px;
+      
+        width : 100%;
+        height: 100vh;
+}
+.hero .position{
+  
+    width: 50%;
+    align-items: flex-start ;
+    justify-content: center;
+    margin-top: 140px ;
+    margin-left: 70px;
+}
+.hero .txt .text1 {
+   
+    font-family: 'inter',sans-serif;
+    color:#E9BD8C;
+    font-size: 24px;
+    margin-top: 100px;
+    margin-left: 50px;
+   
+ }
+ .hero .txt .text2 {
+    font-family: 'Sansita Swashed', system-ui;
+    color: white;
+    font-size: 74px;
+    margin-top: -20px;
+
+}
+.hero .btn {
+    
+    border: none;
+    display: inline-block;
+  
+    border-radius: 5px;
+  }
+  .btn .btn1{
+    margin-right: 120px; 
+    color: white;
+    padding: 10px 30px;
+    margin-top: -20px;
+    background-color: #aa4104; 
+    border-radius: 5px;
+    border: none;
+  }
+  .btn .btn2{
+    margin-right: 10px; 
+    color: white;
+    padding: 10px 30px;
+    margin-top: -20px;
+    background-color: #aa4104; 
+    border-radius: 5px;
+    border: none;
+  }
+.hero-produit{
+margin-top: 80px;
+
+}
+.hero-produit h2{
+      text-align: center;
+      margin-top: 40px;
+      font-size: 41;
+      font-family: 'Sansita Swashed', system-ui;
+
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  margin: 80px 120px;
+  
+}
+
+.hero-produit .product-grid .product-card {  
+  background-image: url('image/Rectangle\ 69.png'); 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  border-radius: 8px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(16, 16, 16, 0.1);
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between; 
+  text-align: start;
+  height: 100%;
+   
+  }
+  .product-card img {
+    align-self: center;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px; 
+  }
+  .product-card h3 {
+    font-size: 24px;
+    color: #ffff;
+    margin-bottom: 15px;
+    align-self: flex-start; 
+  }
+  .product-card p {
+    padding-right: 10px;
+    font-size: 16px;
+    color: #f0ecec;
+    flex-grow: 1;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .product-card button {
+    background-color: #933C24;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    align-self: center; 
+  }
+  .product-card button:hover {
+    background-color: #c0392b;
+  }
+  .product-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -30px;
+  
+  
+  }
+  .cta-section {
+    background-image: url('image/Rectangle\ 45.png'); 
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.cta-content {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 400px;
+    font-family: 'inter',sans-serif;
+}
+
+.cta-content h2 {
+    font-size: 2rem;
+    color: #72361E; 
+    margin-bottom: 15px;
+}
+.cta-content .btn3{
+  margin-right: 10px; 
+  color: white;
+  padding: 20px 60px;
+  margin-top: -2px;
+  background-color: #aa4104; 
+  border-radius: 5px;
+ border: none;
+}
+.explore h2{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 41;
+  font-family: 'Sansita Swashed', system-ui;
+
+}
+.list2 {
+
+  list-style-type: none;   
+  display: flex; 
+  justify-content: center;
+                     
+}
+.list2 li {
+  
+  margin-right: 2px;      
+}
+.list2 a {
+  text-decoration: none;     
+  color: black; 
+  padding: 10px;              
+  border-radius: 5px;       
+  font-family: 'poppins',sans-serif;
+  border-bottom: 2px solid;
+}
+.cake {
+display: flex;
+gap: 40px;
+justify-content: center;
+}
+.explore .list2 a:hover ,
+.explore .list2  a.active{
+    color: #E9BD8C;
+}
+.aboutus-section {
+  background-image: url('image/Rectangle\ 41.png'); 
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus-content {
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.aboutus-content h2 {
+  font-size: 2rem;
+  color: white; 
+  margin-bottom: 15px;
+}
+.aboutus-content p{
+  color: gray;
+  font-family: 'pappins', system-ui;
+}
+.aboutus-content .btn4{
+margin-right: 10px; 
+color: white;
+padding: 20px 60px;
+margin-top: -2px;
+background-color: #aa4104; 
+border-radius: 5px;
+border: none;
+}
+.trends h2{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 41;
+  font-family: 'Sansita Swashed', system-ui;
+}
+.viewtrends  {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  }
+ footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  background-image: url('image/Rectangle\ 75.png'); 
+  margin-top: 20px; 
+  height: 500px;
+    
+}
+.footersection{
+ margin-top: -100;
+}
+footer img{
+  margin-left: -500px;
+}
+ footer h3{
+  margin-top: -60;
+  color: #E9BD8C;
+  margin-left: 100px;
+
+ }
+ footer h1{
+  color: #E9BD8C;
+  margin-top: 60px;
+  margin-left: -600px;
+ 
+ }
+ footer h4{
+  margin-top: -10px;
+  margin-left: -600px;
+ }
+ .explorefooter {
+  flex: 1;
+  padding: 20px;
+  color: white;
+  margin-left: 180px;
+ }
+ .about-footer{
+  flex: 1;
+  padding: 20px;
+  color: white;
+  
+ }
+
+.footer-container {
+  display: flex;
+  width: 100%;
+}
+.newsfooter{
+ display: flex;
+ justify-content:flex-end;
+ margin-top:20 ;
+ margin-right: -400px;
+ 
+}
+.newsimg {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 100;
+  gap:10px;
+  margin-left:-30px;
+}
+.desc{
+   display: flex;
+   
+}
+.newtext{
+  color: white;
+  margin-top: 94;
+  margin-left: 15; 
+}
+.newtext span{
+    color: #E9BD8C;
+
+}
+
+.blogsection {
+  display: flex;
+  justify-content: center;
+ justify-content: space-around;
+ }
+.first-blog{
+  padding: 7%;
+  padding-right: 20%;
+  padding-left: 10%;
+ margin-top: 4%;
+ margin-bottom: 5%;
+ background-image: url('image/Bread_LOGO.jpg'); 
+
+}
+.second-blog{
+  padding: 7%;
+  padding-right: 20%;
+  padding-left: 10%;
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 5%;
+   background-image: url('image/Bread_LOGO.jpg')
+}
+.first-blog p {
+  color: white;
+}
+.second-blog p{
+  color: white;
+}
+.first-blog button {
+margin-right: 12px; 
+color: white;
+padding: 10px 30px;
+background-color: #aa4104; 
+border-radius: 5px;
+border: none;
+}
+.second-blog button {
+  margin-right: 12px; 
+  color: white;
+  padding: 10px 30px;
+  background-color: #aa4104; 
+  border-radius: 5px;
+  border: none;
+  }
+.title-blog {
+ display: flex;
+   margin-top: 1%;
+   justify-content: center;
+   align-items: center;
+}
+.title-blog h1{
+  font-family: 'Sansita Swashed', system-ui;
+}
+.title-service{
+  display: flex;
+    margin-top: 1%;
+    justify-content: center;
+   
+ }
+ .title-service h1{
+  font-family: 'Sansita Swashed', system-ui;
+ }
+.pservice {
+ padding: 20px 400px;
+ text-align: center;
+ background-color: #E9BD8C;
+ margin: 0 130px;
+ border-radius: 10px;
+ 
+
+}
