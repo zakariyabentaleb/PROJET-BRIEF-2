@@ -429,7 +429,8 @@ border: none;
  }
 .pservice {
  padding: 20px 400px;
- text-align: center;
+ text-align: center; 
+ 
  margin: 0 130px;
  border-radius: 10px;
 }
